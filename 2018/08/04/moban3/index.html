@@ -6,20 +6,20 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>模板 | 法拉利跑didi</title>
+  <title>Python基础之迭代器和生成器 | 法拉利跑didi</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Welcome to 法拉利跑滴滴的技术博客 法拉利跑didi###">
+  <meta name="description" content="Welcome to 法拉利跑滴滴的技术博客 作者：法拉利跑didi1.迭代器（Iterator）1）概念：迭代器访问元素，是从第一个元素开始，依次访问后续元素直到结束。其中迭代器只能向前不能回退。其包含两个方法iter()和next()。iter()用来创建一个迭代器，next()用来访问下一个元素。目前我们所学的字符串、列表、元组都可以创建迭代器，那么他们也是可迭代化的对象。迭代器两个步骤：1">
 <meta name="keywords" content="Python 爬虫,Web开发">
 <meta property="og:type" content="article">
-<meta property="og:title" content="模板">
-<meta property="og:url" content="http://yoursite.com/2018/07/19/moban/index.html">
+<meta property="og:title" content="Python基础之迭代器和生成器">
+<meta property="og:url" content="http://yoursite.com/2018/08/04/moban3/index.html">
 <meta property="og:site_name" content="法拉利跑didi">
-<meta property="og:description" content="Welcome to 法拉利跑滴滴的技术博客 法拉利跑didi###">
+<meta property="og:description" content="Welcome to 法拉利跑滴滴的技术博客 作者：法拉利跑didi1.迭代器（Iterator）1）概念：迭代器访问元素，是从第一个元素开始，依次访问后续元素直到结束。其中迭代器只能向前不能回退。其包含两个方法iter()和next()。iter()用来创建一个迭代器，next()用来访问下一个元素。目前我们所学的字符串、列表、元组都可以创建迭代器，那么他们也是可迭代化的对象。迭代器两个步骤：1">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-08-04T07:30:40.463Z">
+<meta property="og:updated_time" content="2018-08-04T07:28:00.022Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="模板">
-<meta name="twitter:description" content="Welcome to 法拉利跑滴滴的技术博客 法拉利跑didi###">
+<meta name="twitter:title" content="Python基础之迭代器和生成器">
+<meta name="twitter:description" content="Welcome to 法拉利跑滴滴的技术博客 作者：法拉利跑didi1.迭代器（Iterator）1）概念：迭代器访问元素，是从第一个元素开始，依次访问后续元素直到结束。其中迭代器只能向前不能回退。其包含两个方法iter()和next()。iter()用来创建一个迭代器，next()用来访问下一个元素。目前我们所学的字符串、列表、元组都可以创建迭代器，那么他们也是可迭代化的对象。迭代器两个步骤：1">
   
     <link rel="alternative" href="/atom.xml" title="法拉利跑didi" type="application/atom+xml">
   
@@ -178,20 +178,20 @@ $ <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-moban" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-moban3" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      模板
+      Python基础之迭代器和生成器
     </h1>
   
 
         
-        <a href="/2018/07/19/moban/" class="archive-article-date">
-  	<time datetime="2018-07-19T00:51:19.109Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-07-19</time>
+        <a href="/2018/08/04/moban3/" class="archive-article-date">
+  	<time datetime="2018-08-04T07:18:31.168Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-08-04</time>
 </a>
         
       </header>
@@ -199,7 +199,35 @@ $ <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
     <div class="article-entry" itemprop="articleBody">
       
         <p>Welcome to 法拉利跑滴滴的技术博客</p>
-<h2 id="法拉利跑didi"><a href="#法拉利跑didi" class="headerlink" title="法拉利跑didi"></a>法拉利跑didi</h2><p>### </p>
+<h2 id="作者：法拉利跑didi"><a href="#作者：法拉利跑didi" class="headerlink" title="作者：法拉利跑didi"></a>作者：法拉利跑didi</h2><p>1.迭代器（Iterator）<br>1）概念：迭代器访问元素，是从第一个元素开始，依次访问后续元素直到结束。其中迭代器只能向前不能回退。其包含两个方法iter()和next()。<br>iter()用来创建一个迭代器，next()用来访问下一个元素。<br>目前我们所学的字符串、列表、元组都可以创建迭代器，那么他们也是可迭代化的对象。<br>迭代器两个步骤：<br>1、当调用next()函数，会将迭代器当前位置状态进行改变<br>2、会将下一个元素进行返回</p>
+<p>迭代器的延迟作用：迭代器生成的元素并不是在迭代器声明时，就准备好了的。通常时在调用迭代器需要提供该元素时生成的，也就是说只有在我们需要的时候迭代器才产生相关元素，不需要时并不会主动的生成相关元素。我们可以把迭代器看成一个容器，到我们需要时使用next()方法返回容器中的下一个值。<br>迭代器实现了工厂模式的对象，它在你每次访问下一个值的时候给你返回。</p>
+<p>可迭代化（iterable）：表明相关的对象可以创建迭代器对象，同时他们自身都是可以进行for数据遍历的。我们可以使用isinstance()来判断对象是否为可迭代化</p>
+<p>from collections import Iterable<br>string = ‘hello’<br>print(isinstance(string, Iterable))  =&gt; True<br>函数格式：isinstance(对象，类型)<br>返回值：布尔值<br>结果：如果指定的对象属于指定的类型，那么返回True，反之返回False</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>list = [1,2,3]<br>iter_list = iter(list)    #iter()读取列表创建迭代器<br>print(next(iter_list))<br>1<br>print(next(iter_list))<br>2<br>print(next(iter_list))<br>3</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>2.生成器<br>生成器<br>1、创建方式<br>第一种，使用列表推导式，将[]改为()，生成一个generator对象<br>第二种，使用函数方式，采用yield关键字来实现<br>2、使用<br>生成器我们通常可以认为一种特殊的迭代器，但是它不需要像迭代器一样去实现<strong>iter</strong>,<strong>next</strong>方法。只需要使用yield关键字，该关键字可以在每次调用生成器函数时起到暂停作用，并将其值进行返回。同时还会记录当前运行值的状态。<br>第一种是把一个列表生成式的[]改成()。例如：</p>
+<blockquote>
+<blockquote>
+<p>list = [2*x for x in range(3)]                                                        #创建列表List=[0,2,4], range(3)=[0,1,2]</p>
+<blockquote>
+<p>list    #list可以通过for或next()访问<br>[0, 2, 4]<br>gene = (2*x for x in range(3))  #创建生成器gene<br>gene</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>&lt;generator object <genexpr> at 0x7fcdb6e0c3b8&gt;</genexpr></p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>next(gene)     #访问生成器第1个元素<br>0<br>next(gene)     #访问生成器第2个元素<br>2<br>next(gene)     #访问生成器第3个元素<br>4<br>next(gene)     #上一步已经遍历完成，再次调用next()会报StopIteration的错误<br>Traceback (most recent call last):<br>  File “<stdin>“, line 1, in <module><br>StopIteration</module></stdin></p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>总结：迭代器和生成器<br>1、容器是一系列的元素集合，str、list、set、dict对象都可以看作是容器，容器都可以进行迭代（即用在while或for循环），凡是这样的容器我们都称为可迭代化对象（Iterable）。<br>2、可迭代化对象都实现了<strong>iter</strong>方法，该方法返回一个迭代器对象。<br>3、迭代器都拥有一个状态字段，用于记录下次迭代返回值。它实现了<strong>next</strong>和<strong>iter</strong>方法，迭代器不会一次性把所有的元素都加载到内存中，而是在需要的时候才生成返回结果。<br>4、生成器是一种特殊的迭代器，它的返回值不是通过return来返回的，而是通过yield来返回的。</p>
 
       
 
@@ -279,7 +307,7 @@ $ <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2018/07/19/moban/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2018/08/04/moban3/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -293,18 +321,18 @@ $ <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
   
 <nav id="article-nav">
   
-    <a href="/2018/07/21/boke four/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="/2018/08/04/moban4/" id="article-nav-newer" class="article-nav-link-wrap">
       <i class="icon-circle-left"></i>
       <div class="article-nav-title">
         
-          Python基础之字符串，元组，列表，字典的转化及删减
+          (no title)
         
       </div>
     </a>
   
   
-    <a href="/2018/07/16/boke three/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">Python基础</div>
+    <a href="/2018/08/04/moban2 /" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">Python基础之集合（set）</div>
       <i class="icon-circle-right"></i>
     </a>
   

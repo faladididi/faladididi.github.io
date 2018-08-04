@@ -8,18 +8,18 @@
   <link rel="dns-prefetch" href="http://yoursite.com">
   <title>Python巧去重复 | 法拉利跑didi</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Welcome to 法拉利跑滴滴的技术博客 Python小白 12345678910111213141516171819202122232425262728$ 例题：a = [1,1,2,2,3,4,5,5,6,6,7,8]将此列表去重复。方法一：a=[1,1,2,2,3,4,5,5,6,7,8]b=[][b.append(x) for x in a if x not in b]print(b)">
+  <meta name="description" content="Welcome to 法拉利跑滴滴的技术博客 作者：法拉利跑didi `$例题：a = [1,1,2,2,3,4,5,5,6,6,7,8]将此列表去重复。方法一：a=[1,1,2,2,3,4,5,5,6,7,8]b=[][b.append(x) for x in a if x not in b]print(b)方法二：a=[1,1,2,2,3,4,5,5,6,7,8]b=list(set(a))p">
 <meta name="keywords" content="Python 爬虫,Web开发">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Python巧去重复">
 <meta property="og:url" content="http://yoursite.com/2018/07/16/boke two/index.html">
 <meta property="og:site_name" content="法拉利跑didi">
-<meta property="og:description" content="Welcome to 法拉利跑滴滴的技术博客 Python小白 12345678910111213141516171819202122232425262728$ 例题：a = [1,1,2,2,3,4,5,5,6,6,7,8]将此列表去重复。方法一：a=[1,1,2,2,3,4,5,5,6,7,8]b=[][b.append(x) for x in a if x not in b]print(b)">
+<meta property="og:description" content="Welcome to 法拉利跑滴滴的技术博客 作者：法拉利跑didi `$例题：a = [1,1,2,2,3,4,5,5,6,6,7,8]将此列表去重复。方法一：a=[1,1,2,2,3,4,5,5,6,7,8]b=[][b.append(x) for x in a if x not in b]print(b)方法二：a=[1,1,2,2,3,4,5,5,6,7,8]b=list(set(a))p">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-07-21T08:01:52.898Z">
+<meta property="og:updated_time" content="2018-08-04T07:22:07.621Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Python巧去重复">
-<meta name="twitter:description" content="Welcome to 法拉利跑滴滴的技术博客 Python小白 12345678910111213141516171819202122232425262728$ 例题：a = [1,1,2,2,3,4,5,5,6,6,7,8]将此列表去重复。方法一：a=[1,1,2,2,3,4,5,5,6,7,8]b=[][b.append(x) for x in a if x not in b]print(b)">
+<meta name="twitter:description" content="Welcome to 法拉利跑滴滴的技术博客 作者：法拉利跑didi `$例题：a = [1,1,2,2,3,4,5,5,6,6,7,8]将此列表去重复。方法一：a=[1,1,2,2,3,4,5,5,6,7,8]b=[][b.append(x) for x in a if x not in b]print(b)方法二：a=[1,1,2,2,3,4,5,5,6,7,8]b=list(set(a))p">
   
     <link rel="alternative" href="/atom.xml" title="法拉利跑didi" type="application/atom+xml">
   
@@ -199,13 +199,15 @@ $ <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
     <div class="article-entry" itemprop="articleBody">
       
         <p>Welcome to 法拉利跑滴滴的技术博客</p>
-<h2 id="Python小白"><a href="#Python小白" class="headerlink" title="Python小白"></a>Python小白</h2><h3 id=""><a href="#" class="headerlink" title=" "></a> </h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line">$ </span><br><span class="line">例题：a = [1,1,2,2,3,4,5,5,6,6,7,8]将此列表去重复。</span><br><span class="line">方法一：</span><br><span class="line">a=[1,1,2,2,3,4,5,5,6,7,8]</span><br><span class="line">b=[]</span><br><span class="line">[b.append(x) for x in a if x not in b]</span><br><span class="line">print(b)</span><br><span class="line">方法二：</span><br><span class="line">a=[1,1,2,2,3,4,5,5,6,7,8]</span><br><span class="line">b=list(set(a))</span><br><span class="line">print(b)</span><br><span class="line">方法三：</span><br><span class="line">&gt;&gt;&gt; l = [1,1,2,2,3,4,5,5,6,6,7,8]</span><br><span class="line">&gt;&gt;&gt; for i in l:</span><br><span class="line">	list1=l.count(i)</span><br><span class="line">	if list1==2:</span><br><span class="line">		l.remove(i)	</span><br><span class="line">&gt;&gt;&gt; print(l)</span><br><span class="line">[1, 2, 3, 4, 5, 6, 7, 8]</span><br><span class="line">方法四：</span><br><span class="line">&gt;&gt;&gt; c=[]</span><br><span class="line">&gt;&gt;&gt; for i in a:</span><br><span class="line">	if i not in c:</span><br><span class="line">		c.append(i)		</span><br><span class="line">&gt;&gt;&gt; print(c)</span><br><span class="line">[1, 2, 3, 4, 5, 6, 7, 8]</span><br><span class="line"></span><br><span class="line">666</span><br></pre></td></tr></table></figure>
-<h3 id="常见基本数据类型"><a href="#常见基本数据类型" class="headerlink" title="常见基本数据类型"></a>常见基本数据类型</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+<h2 id="作者：法拉利跑didi"><a href="#作者：法拉利跑didi" class="headerlink" title="作者：法拉利跑didi"></a>作者：法拉利跑didi</h2><h3 id=""><a href="#" class="headerlink" title=" "></a> </h3><p><code>`</code><br>$<br>例题：a = [1,1,2,2,3,4,5,5,6,6,7,8]将此列表去重复。<br>方法一：<br>a=[1,1,2,2,3,4,5,5,6,7,8]<br>b=[]<br>[b.append(x) for x in a if x not in b]<br>print(b)<br>方法二：<br>a=[1,1,2,2,3,4,5,5,6,7,8]<br>b=list(set(a))<br>print(b)<br>方法三：</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>l = [1,1,2,2,3,4,5,5,6,6,7,8]<br>for i in l:<br>    list1=l.count(i)<br>    if list1==2:<br>        l.remove(i)<br>print(l)<br>[1, 2, 3, 4, 5, 6, 7, 8]<br>方法四：<br>c=[]<br>for i in a:<br>    if i not in c:<br>        c.append(i)<br>print(c)<br>[1, 2, 3, 4, 5, 6, 7, 8]</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>666</p>
 
       
 
